@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Forum</title>
+    <style>
+        .overview{
+            margin: 2rem auto;
+            width: 50%;
+            border: 2px solid;
+            padding: 0 1rem;
+        }
+        h1{
+            text-align: center
+        }
+        #avgStrtPrice{
+            text-align: center;
+            font-size: 20px;
+        }
+        #freelancers{
+            display: flex;
+            justify-items: center;
+        }
+        #freelancers div{
+            margin: 0 1rem;
+        }
+      
+        #freelancers div div{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        ul{
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 1rem;
+        }
+        ul li{
+            margin-top: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="overview">
+            <h1>Freelancer Forum</h1>
+            <div id="avgStrtPrice"></div>
+
+            <h1>Available Freelancers</h1>
+            <div id="freelancers">
+                <div>
+                    <div>Name</div>
+                    <ul id="names"></ul>
+                </div>
+                <div>
+                    <div>Occupation</div>
+                    <ul id="occupations"></ul>
+                </div>
+                <div>
+                    <div>Starting Price</div>
+                    <ul id="strtPrices"></ul>
+                </div>
+            </div>
+    </div>
+    <script src="prct.js"></script>
+</body>
+</html>
