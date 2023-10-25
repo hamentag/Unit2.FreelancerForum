@@ -20,14 +20,14 @@
         }
         #freelancers{
             display: flex;
-            justify-items: center;
         }
         #freelancers div{
+            width: 100%;
             margin: 0 1rem;
+            font-size: 20px;
         }
       
         #freelancers div div{
-            font-size: 18px;
             font-weight: bold;
         }
         ul{
@@ -35,8 +35,11 @@
             padding-left: 1.5rem;
             margin-top: 1rem;
         }
+        li:last-of-type{
+            background-color: lightgreen;  /* Highlight the new freelancer*/
+        }
         ul li{
-            margin-top: 1rem;
+            padding: 0.5rem 1rem;
         }
 
     </style>
@@ -62,6 +65,6 @@
                 </div>
             </div>
     </div>
-    <script src="prct.js"></script>
+    <script src="freelancerForum.js"></script>
 </body>
 </html>
